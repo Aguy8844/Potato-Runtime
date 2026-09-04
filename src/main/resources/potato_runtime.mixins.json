@@ -1,0 +1,30 @@
+{
+    "required":  true,
+    "minVersion":  "0.8",
+    "package":  "dev.ordovicium.potato.mixin",
+    "plugin":  "dev.ordovicium.potato.mixin.PotatoMixinCompatibilityPlugin",
+    "compatibilityLevel":  "JAVA_21",
+    "client":  [
+                   "client.WindowBootstrapMixin",
+                   "client.MinecraftRendererInitializationMixin",
+                   "client.MinecraftVulkanRuntimeLifecycleMixin",
+                   "client.RenderSystemInitObservationMixin",
+                   "client.GLXInitObservationMixin",
+                   "client.RenderTargetOwnershipMixin",
+                   "client.MainTargetOwnershipMixin",
+                   "client.VertexBufferDrawSubmissionMixin",
+                   "client.LevelRendererSectionLayerDrawMixin",
+                   "client.LevelRendererChunkWorkBudgetMixin",
+                   "client.SectionRenderDispatcherUploadBudgetMixin",
+                   "client.TextureAtlasResourceCaptureMixin",
+                   "client.LightTextureResourceCaptureMixin",
+                   "client.accessor.GLXAccessor",
+                   "client.accessor.RenderSystemAccessor",
+                   "client.SectionRenderDispatcherCompileExecutorMixin",
+                   "client.ScreenModifierStateMixin",
+                   "client.InputConstantsModifierStateMixin"
+               ],
+    "injectors":  {
+                      "defaultRequire":  1
+                  }
+}
