@@ -1,0 +1,53 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Potato Runtime local workflow
+_dropoff/
+Potato-Statistics/
+logs/
+backups/
+reports/
+state/
+archive/
+release/
+
+# Runtime / local Minecraft output
+run/
+crash-reports/
+logs/
+config/
+saves/
+resourcepacks/
+shaderpacks/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.log
+
+# Local archives / generated artifacts
+*.zip
+*.7z
+*.rar
