@@ -7,6 +7,20 @@
 > **Current release:** 0.9.0  
 > **Recommended mode:** `DYNAMIC`
 
+## Modrinth technical review
+
+Potato Runtime is a low-level performance mod, so the repository includes reviewer-focused documentation:
+
+- [Technical review guide](MODRINTH_REVIEW.md)
+- [Reproducible build instructions](BUILDING.md)
+- [Mixin / hook manifest](docs/MIXIN_HOOK_MANIFEST.md)
+- [Benchmark protocol](docs/BENCHMARK_PROTOCOL.md)
+- [Research basis](docs/RESEARCH_BASIS.md)
+
+The exact audited source commit for the submitted 0.9.0 artifact is:
+
+`aeca44e2ac3e0a0a796b13a687bc3953d9fa057a`
+
 ## What does it do?
 
 Potato Runtime tries to do the right work at the right time instead of throwing every available CPU thread at Minecraft and hoping for divine intervention.
